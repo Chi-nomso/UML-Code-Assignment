@@ -42,7 +42,7 @@ public class Buyer {
     public void setBuyerCreditCardInfo(String CreditCardInfo){
         this.creditCardInfo = CreditCardInfo;
     }
-    public String creditCardInfo(){
+    public String getCreditCardInfo(){
         return creditCardInfo;
     }
 
@@ -50,9 +50,10 @@ public class Buyer {
     public void setBuyershippingInfo(String nomsoContainer) {
         this.shippingInfo = shippingInfo;
     }
-    public String shippingInfo(){
+    public String getshippingInfo(){
         return shippingInfo;
     }
+
 }
 
 
