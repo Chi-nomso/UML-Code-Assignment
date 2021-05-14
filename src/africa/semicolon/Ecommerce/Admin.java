@@ -1,6 +1,6 @@
 package africa.semicolon.Ecommerce;
 
-public class admin {
+public class Admin {
     private String name;
     private String emailAddress;
 

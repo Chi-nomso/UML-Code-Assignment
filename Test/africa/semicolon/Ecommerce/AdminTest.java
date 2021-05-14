@@ -7,14 +7,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AdminTest {
     @Test
     public void teatThatSystemAcceptsName(){
-        admin myAdmin = new admin();
+        Admin myAdmin = new Admin();
         myAdmin.setadminName("Chinomso");
         assertEquals("Chinomso", myAdmin.getadminName());
     }
 
     @Test
     public void testThatSystemSystememRequiresEmailAddress(){
-        admin myAdmin = new admin();
+        Admin myAdmin = new Admin();
         myAdmin.setadminemailAddress("Nomso@yahoo.com");
         assertEquals("Nomso@yahoo.com", myAdmin.getadminemailAddress());
     }
