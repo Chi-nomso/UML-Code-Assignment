@@ -34,10 +34,10 @@ public class Profile {
 
     public void setusername(String ProfileUsername) {
         username = ProfileUsername;
-    }
-
-    public String getusername() {
+    }  public String getusername() {
         return username;
     }
+
+
 }
 
