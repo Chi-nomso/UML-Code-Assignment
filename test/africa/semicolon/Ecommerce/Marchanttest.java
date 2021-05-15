@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class MarchantTest {
+public class Marchanttest {
 
     @Test
     public void testThatSystemAcceptsName(){

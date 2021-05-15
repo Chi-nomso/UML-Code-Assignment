@@ -7,34 +7,18 @@ public class Passenger {
     private String phoneNumber;
 
 
-    public void setusername(String Driverusername){
-        username = Driverusername;
-    }
+    public void setusername(String Driverusername){ username = Driverusername; }
+    public String getusername() { return username; }
 
-    public String getusername() {
-        return username;
-    }
+    public void setemailAddress(String NomsoemailAddress) { emailAddress = NomsoemailAddress; }
+    public String getemailAddress() { return emailAddress; }
 
-    public void setemailAddress(String NomsoemailAddress) {
-        emailAddress = NomsoemailAddress;
-    }
-    public String getemailAddress() {
-        return emailAddress;
-    }
-
-    public void setuserId(int NomsouserId) {
-        userId = NomsouserId;
-    }
-    public int getuserId() {
-        return userId;
-    }
+    public void setuserId(int NomsouserId) {userId = NomsouserId;}
+    public int getuserId() {return userId;}
 
 
-    public void setphoneNumber(String passengerPhoneNumber) {
-        phoneNumber = passengerPhoneNumber;
-    }
-    public String getphoneNumber() {
-        return phoneNumber;
-    }
+    public void setphoneNumber(String passengerPhoneNumber) {phoneNumber = passengerPhoneNumber;}
+    public String getphoneNumber() {return phoneNumber;}
+
 }
 

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ProfileTest {
+public class Profiletest {
     @Test
     public void testThatSystemDisplaysBio(){
         Profile nomsoProfile = new Profile();

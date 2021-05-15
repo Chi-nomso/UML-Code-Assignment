@@ -37,7 +37,5 @@ public class Profile {
     }  public String getusername() {
         return username;
     }
-
-
 }
 

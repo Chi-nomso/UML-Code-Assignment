@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class PassengerTest {
+public class Passengertest {
     @Test
     public void testThatSystemDisplaysUsername(){
         Passenger nomsoPassenger = new Passenger();
