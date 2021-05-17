@@ -4,18 +4,23 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class Biketest {
         @Test
         public void testThatBikeIsOn(){
         Bike nomsoBike = new Bike();
         nomsoBike.setisOn(true);
-        assertEquals(true, nomsoBike.getisOn());
+        assertTrue(nomsoBike.getisOn());
     }
 
     @Test
     public void testBikeSpeedInKmPerHour(){
         Bike nomsoBike = new Bike();
+        //given
+        nomsoBike.setisOn(true);
+        assertTrue(nomsoBike.getisOn());
+        //then
         nomsoBike.setspeedInKmPerHour(20);
         assertEquals(20, nomsoBike.getspeedInKmPerHour());
     }
@@ -23,6 +28,10 @@ public class Biketest {
     @Test
     public void testThatBikeHasGearNumber(){
         Bike nomsoBike = new Bike();
+        //given
+        nomsoBike.setisOn(true);
+        assertTrue(nomsoBike.getisOn());
+        //then
         nomsoBike.setbikeGearNumber(1);
         assertEquals(1, nomsoBike.getbikeGearNumber());
     }
@@ -33,7 +42,5 @@ public class Biketest {
         //given
         nomsoBike.setspeedInKmPerHour(21);
         //where
-        nomsoBike.setbikeGearNumber(2);
-        assertEquals(2, nomsoBike.getbikeGearNumber());
         }
 }
