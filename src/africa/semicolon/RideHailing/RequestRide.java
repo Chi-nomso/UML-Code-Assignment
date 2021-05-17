@@ -11,5 +11,4 @@ public class RequestRide {
     public void setmap(String Map) {map = Map;}
     public String getmap() { return map; }
 
-
 }
