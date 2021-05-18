@@ -10,23 +10,23 @@ public class AirCondition {
     }
 
 
-    public void setisOn(boolean AcisOn) {
-        this.isOn = AcisOn;
+    public void setisOn(boolean acIsOn) {
+        this.isOn = acIsOn;
     }
     public boolean getisOn() {
         return isOn;
     }
 
 
-    public void setProductName(String nanaAc) {
-        productName = nanaAc;
+    public void setProductName(String appleAc) {
+        productName = appleAc;
     }
     public String getProductName() {
         return productName;
     }
 
-    public void setTemperature(int TempSet) {
-        temperature = TempSet;
+    public void setTemperature(int toSetTemperature) {
+        temperature = toSetTemperature;
     }
     public int getTemperature() {
         return temperature;
@@ -38,7 +38,6 @@ public class AirCondition {
         }else{
             temperature = temperature;
         }
-
     }
 
     public void decreaseTemperature() {
